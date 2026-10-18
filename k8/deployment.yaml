@@ -26,7 +26,7 @@ spec:
         - name: dockerhub-secret
       containers:
         - name: setmeup-admin-ecomerence23-backend
-          image: paxarisdocker/setmeup-admin-ecomerence23-backend:29adca987f3c0f0c0d2249045de02855dd6396a2
+          image: paxarisdocker/setmeup-admin-ecomerence23-backend:33f7c4275ea9f6d1582f81815bd6d7c2e2c53056
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
