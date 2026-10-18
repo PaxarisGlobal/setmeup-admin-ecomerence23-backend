@@ -17,7 +17,7 @@ spec:
     spec:
       initContainers:
         - name: wait-for-postgres
-          image: paxarisdocker/setmeup-admin-ecomerence23-backend:29adca987f3c0f0c0d2249045de02855dd6396a2
+          image: postgres:16-alpine
           command:
             - sh
             - -c
